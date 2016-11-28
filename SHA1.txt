@@ -1,0 +1,9 @@
+调试版sha1的获取（terminal获取sha1码）
+
+keytool -v -list -keystore  C:\Users\龙哥\.android\debug.keystore
+可不输密码或者输入andriod 
+
+发布版sha1的获取（cmd获取sha1码）
+cd .android
+keytool -list -v -keystore jks的地址
+输入你设置的密码即可
